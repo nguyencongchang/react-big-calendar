@@ -1560,7 +1560,7 @@ var isSegmentInSlot = function isSegmentInSlot(seg, slot) {
 var eventsInSlot = function eventsInSlot(segments, slot) {
   return segments.filter(function (seg) {
     return isSegmentInSlot(seg, slot);
-  }).length +1;
+  }).length + 1;
 };
 
 var EventEndingRow = /*#__PURE__*/function (_React$Component) {
@@ -1644,7 +1644,7 @@ var EventEndingRow = /*#__PURE__*/function (_React$Component) {
       onClick: function onClick(e) {
         return _this.showMore(slot, e);
       }
-    }, localizer.messages.showMore(count-1)) : false;
+    }, localizer.messages.showMore(count - 1)) : false;
   };
 
   _proto.showMore = function showMore(slot, e) {
