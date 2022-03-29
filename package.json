@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jquense/react-big-calendar.git"
+    "url": "git+https://github.com/nguyencongchang/react-big-calendar.git"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -30,6 +30,7 @@
     "full calendar"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "clean": "rimraf lib",
     "clean:examples": "rimraf examples/static",
     "s": "sass ./lib/sass/styles.scss ./lib/css/react-big-calendar.css",
@@ -156,7 +157,7 @@
     "babel-core": "7.0.0-bridge.0"
   },
   "bugs": {
-    "url": "https://github.com/jquense/react-big-calendar/issues"
+    "url": "https://github.com/nguyencongchang/react-big-calendar/issues"
   },
-  "homepage": "https://github.com/jquense/react-big-calendar#readme"
+  "homepage": "https://github.com/nguyencongchang/react-big-calendar#readme"
 }
