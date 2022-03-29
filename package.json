@@ -30,7 +30,6 @@
     "full calendar"
   ],
   "scripts": {
-    "prepare": "npm run build",
     "clean": "rimraf lib",
     "clean:examples": "rimraf examples/static",
     "s": "sass ./lib/sass/styles.scss ./lib/css/react-big-calendar.css",
